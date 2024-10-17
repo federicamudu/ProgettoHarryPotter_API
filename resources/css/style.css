@@ -1,0 +1,56 @@
+.navbarCustom{
+    background-color: transparent;
+}
+.homepageSfondo{
+    background-image: url('../../public/media/sfondoHome.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.containerDetailCharacter{
+    background-image: url('../../public/media/sfondoDettaglioPersonaggio.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.containerCharacters{
+    background-image: url('../../public/media/sfondoPersonaggi.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -50px;
+}
+.divScrollabile{
+    height: 87.5vh;
+    overflow-y: scroll;
+}
+.logoNav{
+    width: 35px;
+}
+.containerBooks{
+    background-image: url('../../public/media/sfondoLibri.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.containerDetailBook{
+    background-image: url('../../public/media/sfondoLibriDettaglio.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.containerSpells{
+    background-image: url('../../public/media/sfondoIncantesimi.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.cardCustom{
+    background-color: rgba(255, 255, 255, 0.6);
+}
+.containerContact{
+    background-image: url('../../public/media/wallpaperflare.com_wallpaper.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
