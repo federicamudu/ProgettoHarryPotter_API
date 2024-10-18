@@ -2,6 +2,7 @@
 <div class="container-fluid min-vh-100 containerDetailCharacter ">
         <div class="row align-items-center justify-content-center">
             <div class="col-12 mt-3">
+                <a class="btn btn-outline-light mt-5" href="{{route('characters')}}" id="btnBack"><</a>
                 <h1 class="text-center text-black display-4 text-shadow my-5">
                     Dettaglio di <span class="fst-italic text-capitalize"> {{ $character['fullName'] }} </span>
                 </h1>
@@ -21,4 +22,5 @@
             </div>
         </div>
     </div>
+    
 </x-layout>

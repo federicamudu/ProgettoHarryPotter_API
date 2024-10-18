@@ -19,11 +19,9 @@
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: -50px;
+    background-attachment: fixed;
 }
-.divScrollabile{
-    height: 87.5vh;
-    overflow-y: scroll;
-}
+
 .logoNav{
     width: 35px;
 }
@@ -32,6 +30,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 .containerDetailBook{
     background-image: url('../../public/media/sfondoLibriDettaglio.jpg');
@@ -44,6 +43,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 .cardCustom{
     background-color: rgba(255, 255, 255, 0.6);
@@ -53,4 +53,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
 }

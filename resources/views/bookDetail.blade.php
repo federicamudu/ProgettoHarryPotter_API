@@ -2,6 +2,7 @@
 <div class="container-fluid min-vh-100 containerDetailBook ">
         <div class="row align-items-center justify-content-center">
             <div class="col-12 mt-3">
+            <a class="btn btn-outline-light mt-5" href="{{route('books')}}" id="btnBack"><</a>
                 <h1 class="text-center text-white display-4 text-shadow my-5">
                     <span class="fst-italic text-capitalize"> {{ $book['title'] }} </span>
                 </h1>
